@@ -1,0 +1,25 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.common.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "css-loader": "^7.1.5",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.8",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.0.0",
+    "webpack-merge": "^6.0.1"
+  }
+}
