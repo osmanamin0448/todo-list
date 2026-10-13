@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo List</title>
+
+  <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
+  >
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo-container">
+      <h1>Osman ToDo</h1>
+
+      <span class="mdi mdi-check-all"></span>
+    </div>
+
+    <div class="project-container">
+      <button class="new-project-button">
+        <span class="mdi mdi-plus-circle-outline"></span>
+        New Project
+      </button>
+
+      <dialog>  
+        <form action="#" method="post">
+          <label for="project">Project</label>
+          <input type="text" id='project' name="project" required>
+
+          <btn-div>
+            <button type="submit">Create</button>
+            <button id="cancel">Cancel</button>
+          </btn-div>
+        </form>
+      </dialog>
+
+      <div class="project-shelve">
+        
+      </div>
+
+    </div>
+  </div>
+
+  <div class="todo-container">
+ 
+    
+  </div>
+
+
+
+  
+</body>
+</html>
